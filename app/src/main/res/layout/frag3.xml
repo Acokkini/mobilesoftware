@@ -1,15 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:baselineAligned="false">
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meal"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="743dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cafe"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="751dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/month_kacl"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kcal_word"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kcal"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#FE7501"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
         android:layout_height="277dp"
-        android:layout_weight="1"
         android:text="3번화면"
-        android:textSize="34sp" />
-</LinearLayout>
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="265dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="110dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/food"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        style="@android:style/Widget.DeviceDefault.CalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:dateTextAppearance="#FFFFFF"
+        android:foregroundTint="#FFFFFF"
+        android:scrollbarThumbHorizontal="#FFFFFF"
+        android:scrollbarThumbVertical="#FFFFFF"
+        android:unfocusedMonthDateColor="#FFFFFF"
+        android:weekNumberColor="#FFFFFF"
+        android:weekSeparatorLineColor="#FFFFFF"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="354dp"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="122dp"
+        android:layout_height="126dp"
+        app:srcCompat="@drawable/cafe"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

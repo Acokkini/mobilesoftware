@@ -22,4 +22,7 @@
     <string name="meal_emoji">식사 이모지</string>
     <string name="meal_evaluation">식사 평가</string>
     <string name="meal_evaluation_word">식사평을 입력해주세요.</string>
+    <string name="kcal">336/2,291kcal</string>
+    <string name="month_kacl">한달 칼로리량 보기</string>
+    <string name="kcal_word">1,945kcal 더 먹을 수 있어요</string>
 </resources>
